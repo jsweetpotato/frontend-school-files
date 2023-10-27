@@ -1,0 +1,20 @@
+/* 효진 */
+ul,
+ol,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  background-color: #5d5d5d;
+}
+
+.front {
+  display: flex;
+  justify-content: space-around;
+}
+
+.twoDep {
+  display: none;
+}

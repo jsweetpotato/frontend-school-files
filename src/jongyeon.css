@@ -1,0 +1,19 @@
+/* 종연 section */
+.jy-list {
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.jy-item-container {
+  display: flex;
+}
+.jy-item-container > dt {
+  border: 1px solid blue;
+  background-color: red;
+  min-width: 50px;
+  padding: 20px;
+}
+.jy-item-desc > dd {
+  margin: 10px;
+}

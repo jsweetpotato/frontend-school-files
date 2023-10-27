@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/base.css" />
+    <link rel="stylesheet" href="./src/jisu.css" />
+    <link rel="stylesheet" href="./src/jongyeon.css" />
+    <link rel="stylesheet" href="./src/hyojin.css" />
+    
+    <title>Git Study</title>
+  </head>
+  <!-- q(인용), dd, section -->
+  <body>
+    <!-- 헤더  -->
+    <header></header>
+
+    <!-- 효진 - navigation -->
+    <nav>
+      <ul class="front">
+        <li>
+          <a href="/">HTML</a>
+          <ul class="twoDep">
+            <li>HTML4.01</li>
+            <li>XHTML 1.0</li>
+            <li>HTML5</li>
+          </ul>
+        </li>
+        <li>
+          <a href="/">CSS</a>
+          <ul class="twoDep">
+            <li>SASS</li>
+            <li>TailwindCSS</li>
+          </ul>
+        </li>
+        <li>
+          <a href="/">JAVASCRIPT</a>
+          <ul class="twoDep">
+            <li>REACT</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- 메인 -->
+    <main>
+      <!-- 지수 - a와 img 태그 -->
+      <section class="container jisu">
+        <h2>a 태그와 target</h2>
+        <div class="link-wrapper">
+          <a class="icon" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <figure>
+              <img src="./images/logo/github-logo.png" alt="깃 허브 바로가기 로고" />
+              <figcaption>
+                <span>깃 허브 바로가기</span>
+              </figcaption>
+            </figure>
+          </a>
+          <a class="icon" href="https://developer.mozilla.org/ko/" target="_blank" rel="noopener noreferrer">
+            <figure>
+              <img src="./images/logo/mdn-logo.png" alt="MDN 바로가기 로고" />
+              <figcaption>
+                <span>MDN 바로가기</span>
+              </figcaption>
+            </figure>
+          </a>
+          <a class="icon front" href="https://www.notion.so/FRONT-END-SCHOOL-8-0cb30a81797544b8a8e02162b0760fa3" target="_blank" rel="noopener noreferrer">
+            <figure>
+              <img src="./images/logo/front-logo.png" alt="프론트엔드 스쿨 바로가기 로고" />
+              <figcaption>
+                <span>프론트엔드 스쿨 바로가기</span>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      </section>
+
+      <!-- 종연 definition list(dl, dt, dd) -->
+      <section class="container">
+        <h2>Definition list(dl, dt, dd)</h2>
+        <dl class="jy-list">
+          <div class="jy-item-container">
+            <dt>배</dt>
+            <div class="jy-item-desc">
+              <dd>볼록 튀어나온 나의 몸 일부</dd>
+              <dd>과일의 일종으로 시원한 맛을 가지고 있음</dd>
+              <dd>바다 위를 이동할 수 있는 운송 수단</dd>
+            </div>
+          </div>
+          <div class="jy-item-container">
+            <dt>HTML</dt>
+            <div class="jy-item-desc">
+              <dd>HyperText Markup Language</dd>
+            </div>
+          </div>
+          <div class="jy-item-container">
+            <dt>CSS</dt>
+            <div class="jy-item-desc">
+              <dd>Cascade Style Sheet</dd>
+            </div>
+          </div>
+          <div class="jy-item-container">
+            <dt>Javascript</dt>
+            <div class="jy-item-desc">
+              <dd>자바스크립트</dd>
+            </div>
+          </div>
+        </dl>
+      </section>
+   
+
+      <!-- 윤주 blockquote, cite, 어휘요소-->
+      <section class="container">
+        <h2>blockquote, cite, 어휘요소</h2>
+        
+        <b>중요성, 관련성 없이 구분을 목적으로 사용</b></br>
+        <strong>중요성 강조</strong></br>
+        <i>기술적 용어, 관용구, 생각 등에 사용</i></br>
+        <em>강조</em></br>
+      </section>
+    
+    </main>
+    <footer><p>copyright 연락처 등등</p></footer>
+  </body>
+</html>
